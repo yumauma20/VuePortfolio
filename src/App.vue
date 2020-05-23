@@ -9,6 +9,13 @@
 </template>
 
 <style>
+body {
+  background-color: goldenrod;
+  border-style: solid;
+  border-color: red;
+  border-radius: 50px;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
