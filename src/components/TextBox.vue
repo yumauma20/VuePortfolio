@@ -3,7 +3,7 @@
     <div class="text-title">
       <h3>{{ item.title }}</h3>
     </div>
-    <p class="text-content">
+    <p class="text-content" style="white-space:pre-line;">
       {{ item.content }}
     </p>
   </div>
