@@ -10,6 +10,7 @@
 
 <style>
 body {
+  margin: 5%;
   background-color: goldenrod;
   border-style: solid;
   border-color: red;
