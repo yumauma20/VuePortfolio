@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-      <Title class="main" title="Welcome to Your Vue.js App"/>
+      <h1>Profile</h1>
       <div class="texts">
         <text-box v-for="text in texts" :key="text.title" :item="text" />
       </div>
@@ -10,29 +10,31 @@
 
 <script>
 // @ is an alias to /src
-import Title from '@/components/HelloWorld.vue'
 import TextBox from '@/components/TextBox.vue'
 
 export default {
   name: 'Home',
   components: {
-    Title,
     TextBox
   },
   data () {
     return {
       texts: [
         {
-          title: 'サンプルタイトル',
-          content: 'サンプルテキスト'
+          title: '名前',
+          content: '内藤 佑馬(ないとう ゆうま)'
         },
         {
-          title: 'サンプルタイトル２',
-          content: 'サンプルテキスト２'
+          title: '大学',
+          content: '北海学園大学 経営情報学科 3年'
         },
         {
-          title: 'サンプルタイトル3',
-          content: 'サンプルテキスト3'
+          title: '経歴',
+          content: `サンプルtekisuto
+                    サンプルテキストああああ
+                    ああああああああああああ
+                    ああああああああああああ
+                    ああああああ`
         }
       ]
     }
@@ -41,7 +43,7 @@ export default {
 
 </script>
 <style lang="scss">
-  .main {
+  h1 {
     color: red;
   }
 </style>
