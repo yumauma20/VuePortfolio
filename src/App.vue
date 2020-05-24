@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link class="flont" to="/">Home</router-link> |
-      <router-link class="back" to="/about">About</router-link>
+      <router-link to="/">Profile</router-link> |
+      <router-link to="/skill">Skill</router-link>
+      <!-- <router-link to="/about">About</router-link> -->
     </div>
     <router-view/>
   </div>
@@ -12,9 +13,6 @@
 body {
   margin: 5%;
   background-color: goldenrod;
-  border-style: solid;
-  border-color: red;
-  border-radius: 50px;
 }
 
 #app {
