@@ -1,10 +1,9 @@
 <template>
   <div class="skill">
-    <img alt="Vue logo" src="../assets/logo.png">
-      <h1>Skill</h1>
-      <div class="texts">
-        <text-box v-for="text in texts" :key="text.title" :item="text" />
-      </div>
+    <h1>Skill</h1>
+    <div class="texts">
+      <text-box v-for="text in texts" :key="text.title" :item="text" />
+    </div>
   </div>
 </template>
 
@@ -13,7 +12,7 @@
 import TextBox from '@/components/TextBox.vue'
 
 export default {
-  name: 'Home',
+  name: 'Skill',
   components: {
     TextBox
   },
