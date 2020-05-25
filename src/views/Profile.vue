@@ -29,7 +29,7 @@ export default {
         },
         {
           title: '経歴',
-          content: `サンプルtekisuto
+          content: `サンプルテキスト
                     サンプルテキストああああ
                     ああああああああああああ
                     ああああああああああああ

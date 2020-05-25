@@ -21,15 +21,15 @@ export default {
       texts: [
         {
           title: 'PHP',
-          content: 'バイトでやってるよ'
+          content: 'サンプルテキスト'
         },
         {
           title: 'HTML,CSS',
-          content: '昔やってた'
+          content: 'サンプルテキスト'
         },
         {
           title: 'Vue',
-          content: 'やるぞおおおお'
+          content: 'サンプルテキスト'
         }
       ]
     }
