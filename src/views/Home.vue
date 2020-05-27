@@ -1,7 +1,7 @@
 <template>
   <div id="home">
     <h1>Yuma Naito</h1>
-    <h1>PortfolioSite</h1>
+    <h1>Self-introduction</h1>
     <div class="social">
       <a href="https://twitter.com/yumauma20" class="link twitter" target="_brank">
         <span class="fa fa-twitter"></span>
